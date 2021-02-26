@@ -1,5 +1,5 @@
 {
-  "name": "poplation-app",
+  "name": "population-app",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,8 +8,12 @@
     "start": "next start"
   },
   "dependencies": {
+    "axios": "^0.21.1",
+    "highcharts": "^9.0.1",
+    "highcharts-react-official": "^3.0.0",
     "next": "10.0.7",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "styled-components": "^5.2.1"
   }
 }
