@@ -26,7 +26,7 @@ const PrefWrapper = styled.div`
 export default function Home() {
   const prefectureUrl = 'https://opendata.resas-portal.go.jp/api/v1/prefectures';
   const populationUrl = 'https://opendata.resas-portal.go.jp/api/v1/population/composition/perYear'
-  const apiKey = process.env.REACT_APP_API_KEY;
+  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
   const [pref, setPref] = useState([])
   const [popByPref, setPopByPref] = useState([])
   const [selectedPref, setSelectedPref] = useState([])
